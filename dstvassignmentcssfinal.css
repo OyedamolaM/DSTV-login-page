@@ -1,0 +1,271 @@
+/* style for main section */
+.main-section{
+    background-image:url(WhatsApp\ Image\ 2024-04-17\ at\ 13.31.25_a2cc4e9a.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style for main div */
+.main-div{
+    width: 400px;
+    height:800px;
+    background-color: #293e7a80;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* style for dstv logo and sign in account div */
+.sign-in-container{
+    width: 100%;
+    margin-bottom: 0;  
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    
+}
+
+.dstvlogo{
+    width: 100%;
+    height: 100px;
+}
+    
+/* style for div containing the form */
+.form{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+/* style for country dropdown */
+.dropdown{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+   background-color:#b2bcd680;
+   border-radius: 30px;
+   margin: auto;
+   padding-left: 1rem;
+}
+
+.dropdown select{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropdown select option{
+    color: black;
+    cursor: pointer;
+}
+
+.fa-location-dot{
+    margin-right: 20px;
+    
+}
+
+.fa-circle-info{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.fa-circle-info { 
+    position: relative;  
+  } 
+   
+  .name-info::after { 
+    content: "please input name"; 
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    /* transform: translateX(-50%);  */
+    background-color: #000;
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;  
+    white-space: nowrap;  
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  } 
+   
+  .fa-circle-info:hover::after { 
+    display: block;  
+  } 
+
+  .card-info::after { 
+    content: "please input card number"; 
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    /* transform: translateX(-50%);  */
+    background-color: #000;
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;  
+    white-space: nowrap;  
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  } 
+  .multi-info::after { 
+    content: "please input multichoice details"; 
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    /* transform: translateX(-50%);  */
+    background-color: #000;
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;  
+    white-space: nowrap;  
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  } 
+
+/* input field for form */
+.name-input, .smartcard-input{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+   background-color:#b2bcd680;
+   border-radius: 30px;
+   margin-left: 12px;
+   margin-bottom: 20px;
+   padding-left: 1rem;
+}
+
+/* style for username and smartcard input */
+.name-input input, .smartcard-input input{
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    cursor: text;
+}
+
+input::placeholder, .smartcard-input::placeholder{
+    color: white;
+    cursor: text;    
+}
+
+.check-bar{
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.check-bar input{
+    width: 20px;
+    height: 20px;
+    accent-color: yellow;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button:hover{
+    opacity: 0.5;
+}
+
+.sign-in-button{
+    width: 150px;
+    height: 25px;
+    border-radius: 3rem;
+    background-color:#b2bcd680;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.or-bar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or-bar hr{
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    left: 10%;
+    height: 2px;
+    background-color: white;
+}
+
+.or{
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: +1;
+}
+.multi-option{
+    width: 100%;
+    height: 150px;
+    background-color:#09143380;
+    margin-top: 20px;
+    padding-top: 30px;
+    border: none;
+    outline: none;
+}
+.multichoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signinup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 3rem;
+    width: 200px;
+    height: 35px;
+    color: #09143380;
+}
+button:hover{
+    opacity: 0.5;
+    border: none;
+    outline: none;
+}
+.info{
+    padding: 30px 30px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.terms{
+    color: rgb(9, 9, 239);
+    text-decoration: none;
+}
